@@ -1,0 +1,29 @@
+.cards {
+  overflow-x: hidden;
+
+  min-width: 20em;
+
+  box-shadow: 0 0.1em 0.2em 0.15em rgb(186, 186, 186);
+  border-radius: 0.5em;
+}
+
+.list-empty {
+  text-align: center;
+}
+
+.header {
+  padding: 1em;
+
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
+
+  background-color: #282830;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+}

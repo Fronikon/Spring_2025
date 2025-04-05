@@ -1,0 +1,13 @@
+.modal {
+  overflow: auto;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  padding: 2em 1em;
+
+  background-color: rgba(0, 0, 0, 0.579);
+}

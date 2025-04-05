@@ -1,0 +1,16 @@
+.content {
+  margin: 2em auto;
+  max-width: 40em;
+  
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 0.5em;
+
+  font-size: calc(3em + 2vw);
+}
+
+.description {
+  font-size: calc(2em + 1vw);
+}

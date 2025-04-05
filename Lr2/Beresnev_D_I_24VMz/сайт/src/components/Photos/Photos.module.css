@@ -1,0 +1,18 @@
+.photos-container {
+  position: relative;
+
+  padding: 1.5em 0 10em;
+  min-height: calc(100vh - 3.5rem - 3rem);
+}
+
+.photos {
+  display: grid;
+  grid-gap: 0.5em;
+  grid-template-columns: repeat(auto-fit, minmax(auto, 30em));
+  justify-content: center;
+}
+
+.empty-photos {
+  text-align: center;
+  font-size: 2em;
+}

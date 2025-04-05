@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 3rem);
+}
+
+.pageNotFound {
+  text-align: center;
+  color: #444444;
+  padding-bottom: calc(5em + 1vw);
+}
+
+.title {
+  font-size: calc(3em + 6vw);
+}
+
+.description {
+  font-size: calc(3em + 4vw);
+}

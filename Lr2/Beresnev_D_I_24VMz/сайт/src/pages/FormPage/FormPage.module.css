@@ -1,0 +1,8 @@
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 1em 2em;
+  flex-wrap: wrap;
+  margin: 3em 0;
+}

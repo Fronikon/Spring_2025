@@ -1,0 +1,32 @@
+.photo-content-container {
+  padding: 1em;
+}
+
+.photo-content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  width: 800px;
+  border: 5px solid rgb(106, 56, 200);
+  padding: 1em;
+  
+  font-size: 1.3em;
+
+  border-radius: 2em;
+}
+
+.side-info,
+.main-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.main-info {
+  flex: 1;
+  min-width: 200px;
+}
+
+.title {
+  font-size: 1.3em;
+}

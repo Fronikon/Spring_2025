@@ -1,0 +1,32 @@
+// Вспомогательная функция
+const toUpperCaseChar = char => {
+    // Проверяем, является ли символ строчной латинской буквой
+    if (char >= 'a' && char <= 'z') {
+        // Преобразуем символ в прописной и возврацаем значение из функции
+        return String.fromCharCode(char.charCodeAt(0) - 32);
+    } else {
+        // Возвращаем значение без преобразования
+        return char;
+    }
+}
+
+// Основная функция
+const toUpperCaseString = str => {
+    let str_final = ''
+
+    // Запускаем цикл что бы пройтись по всем символам строки
+    for (let i = 0; i < str.length; i++) {
+        /* Запускаем вспомогательную функцию и результат
+        прибавляем к результирующей строке */
+        str_final += toUpperCaseChar(str[i]);
+    }
+
+    // Возвращаем результирующую строку из функции
+    return str_final
+}
+
+const input = 'hello world'
+const output = toUpperCaseString(input)
+
+// Выводим сообщение в консоль
+console.log(output)

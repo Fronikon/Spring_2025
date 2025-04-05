@@ -1,0 +1,14 @@
+.container {
+  position: fixed;
+  bottom: 2em;
+  right: 0;
+
+  font-size: 2em;
+  text-align: center;
+
+  z-index: 10;
+}
+
+.loading {
+  width: calc(9vw + 3em);
+}

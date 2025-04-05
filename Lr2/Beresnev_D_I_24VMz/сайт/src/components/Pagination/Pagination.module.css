@@ -1,0 +1,64 @@
+.pagination-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1em 0;
+
+  background-color: white;
+  box-shadow: 0 -4px 10px grey;
+}
+
+.pagination-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  flex-wrap: wrap;
+}
+
+.page,
+.control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.7em;
+  height: 1.7em;
+  padding: 0 0.3em;
+  border: 1px solid black;
+
+  font-size: 1.2em;
+
+  background-color: white;
+  border-radius: 0.3em;
+  outline: none;
+  user-select: none;
+}
+
+.page:hover,
+.control:hover {
+  cursor: pointer;
+  outline: 1px solid black;
+}
+
+.control:disabled {
+  border-color: rgb(158, 158, 158);
+}
+
+.control:disabled:hover,
+.active-page:hover {
+  cursor: auto;
+  outline: none;
+}
+
+.active-page {
+  background-color: blueviolet;
+  color: white;
+}
+
+.per-page {
+  padding: 0.2em;
+  font-size: 1em;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 0.2em;
+}
